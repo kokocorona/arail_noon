@@ -27,7 +27,7 @@ export default function Vip() {
 
   return (
     <div className='container'>
-      <h1>List of VIP:</h1>
+      <h1>List of VIP 111:</h1>
       {load && <h3>Loading...</h3>}
       <div className='row'>
         {vip_ar.map(item => {
